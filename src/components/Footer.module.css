@@ -1,0 +1,15 @@
+.footer {
+  margin-top: 20px;
+  border-top: 5px solid #99e9f2;
+  display: flex;
+}
+
+.leftSide {
+  margin-left: 100px;
+}
+
+.rightSide {
+  display: inline-block;
+
+  margin-left: 500px;
+}

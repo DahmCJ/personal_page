@@ -1,0 +1,40 @@
+h4 {
+  text-align: center;
+}
+.projectContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+
+  width: 80%;
+  height: auto;
+  margin: 40px auto;
+  font-size: 20px;
+}
+
+.project {
+  /* border: 3px solid #f1f3f5; */
+  border-radius: 20px;
+  height: auto;
+  padding: 10px;
+}
+
+.project:hover {
+  /* border: 3px solid #99e9f2; */
+  cursor: pointer;
+  animation: button-particles 2s ease-in-out infinite;
+  transform: translateY(-2px);
+}
+
+.project:hover h4 {
+  color: #99e9f2;
+}
+
+.project h4 {
+  margin-bottom: 20px;
+}
+
+.project img {
+  width: 345px;
+  height: 205px;
+}
